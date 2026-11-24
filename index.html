@@ -45,7 +45,7 @@
 <header>
   <div class="inner">
     <h1>Driveline Weight &mdash; プライバシーポリシー / Privacy Policy</h1>
-    <div class="sub">最終更新 / Last updated: 2026-09-20</div>
+    <div class="sub">最終更新 / Last updated: 2026-11-25</div>
   </div>
 </header>
 
@@ -62,8 +62,9 @@ Driveline Weight（以下「本アプリ」）は、G-Works が提供する Wind
 </p>
 
 <div class="note">
-<strong>本アプリはインターネット通信を一切行いません。</strong>
-利用者の情報を収集・送信することはなく、外部のサーバーへ接続することもありません。
+<strong>本アプリは利用者の情報を収集・送信しません。</strong>
+本アプリ自身がインターネット通信を行うことはなく、外部のサーバーへ接続することもありません。
+メニューから G-Works のサイトや姉妹アプリの Store ページを選んだときだけ、Windows がブラウザーや Store アプリでそのページを開きます（4. を参照）。
 </div>
 
 <h3>1. 収集する情報</h3>
@@ -97,11 +98,21 @@ Driveline Weight（以下「本アプリ」）は、G-Works が提供する Wind
 本アプリはネットワーク通信機能を持ちません。パッケージが要求する機能も
 <code>runFullTrust</code>（Win32 デスクトップ アプリに必須）のみです。
 ヘルプはアプリに同梱したファイルをブラウザーで開くもので、通信は行いません。
-
+</p>
+<p>
+「…」メニューの「G-Works のサイト（シリーズのアプリの一覧）」を選ぶと、既定のブラウザーが
+<code>https://gworks-site.g-works-902.workers.dev/</code>（G-Works の製品紹介サイト）を開きます。
+「Driveline シリーズのアプリ」から姉妹アプリを選ぶと、Microsoft Store アプリがそのアプリのページを開きます
+（開けないときはブラウザーで <code>https://apps.microsoft.com/</code> のページを開きます）。
+どちらも利用者が選んだときだけ開き、起動時などに勧めることはありません。
+Store のページの URL には、本アプリから開いたことを示す目印 <code>cid=drivelineweightapp</code> が付きます
+（Microsoft の集計で、どこから来た閲覧かを区別するためのもので、利用者や端末を特定する情報は含みません）。
+本アプリから入力したデータ・プロファイル・端末の情報を送ることはありません。開いた先での扱いは、
+それぞれのサイト（Microsoft Store は <a href="https://privacy.microsoft.com/privacystatement">Microsoft のプライバシーに関する声明</a>）に従います。
 </p>
 
 <h3>5. 第三者への提供</h3>
-<p>提供する情報がないため、第三者への提供もありません。</p>
+<p>提供する情報がないため、第三者への提供もありません（4. のページを開いたときに、開いた先のサイトが受け取る通常の通信情報を除きます）。</p>
 
 <h3>6. データの保存期間と削除</h3>
 <p>
@@ -113,7 +124,7 @@ Driveline Weight（以下「本アプリ」）は、G-Works が提供する Wind
 
 <h3>7. セキュリティ</h3>
 <p>
-本アプリは情報を送信しないため、通信経路上の漏えいは発生しません。
+本アプリ自身は情報を送信しないため、通信経路上の漏えいは発生しません。
 端末内のファイルの保護は、Windows のアクセス権と利用者の管理に依ります。
 </p>
 
@@ -144,9 +155,10 @@ This policy explains how the App handles your information.
 </p>
 
 <div class="note">
-<strong>The App makes no network connections at all.</strong>
-It does not collect or transmit any information about you, and it never contacts
-an external server.
+<strong>The App does not collect or transmit any information about you.</strong>
+The App itself makes no network connections and never contacts an external server.
+Only when you choose the G-Works website or a sister app's Store page from the menu does Windows open that page
+in your browser or the Store app (see section 4).
 </div>
 
 <h3>1. Information we collect</h3>
@@ -182,11 +194,23 @@ contains no vehicle database.
 The App has no networking features. The only capability the package declares is
 <code>runFullTrust</code>, which is required for Win32 desktop applications.
 The help is a set of files installed with the App and opened in your browser without any
-network access. 
+network access.
+</p>
+<p>
+Choosing "G-Works website (all our apps)" from the "…" menu opens
+<code>https://gworks-site.g-works-902.workers.dev/</code> (the G-Works product site) in your default browser.
+Choosing a sister app under "Driveline series apps" opens its page in the Microsoft Store app
+(or on <code>https://apps.microsoft.com/</code> in your browser if the Store app cannot be opened).
+They open only when you choose them; the App never promotes them at startup or otherwise.
+The Store links carry the marker <code>cid=drivelineweightapp</code>, which tells Microsoft's statistics that the
+visit came from the App; it contains nothing that identifies you or your device.
+The App never sends your inputs, profiles or device information. The site you open handles your visit under
+its own policy (for the Microsoft Store, the <a href="https://privacy.microsoft.com/privacystatement">Microsoft Privacy Statement</a>).
 </p>
 
 <h3>5. Sharing with third parties</h3>
-<p>There is no information to share, so nothing is shared.</p>
+<p>There is no information to share, so nothing is shared (apart from the ordinary connection data a site receives
+when you open one of the pages in section 4).</p>
 
 <h3>6. Data retention and deletion</h3>
 <p>
@@ -198,7 +222,7 @@ is uninstalled.
 
 <h3>7. Security</h3>
 <p>
-Because the App transmits nothing, there is no exposure in transit. Protection of
+Because the App itself transmits nothing, there is no exposure in transit. Protection of
 files on your device relies on Windows permissions and your own management.
 </p>
 
